@@ -14,6 +14,12 @@
 		2C340E682C1DB81D002BB644 /* businessCard_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C340E672C1DB81D002BB644 /* businessCard_swiftuiTests.swift */; };
 		2C340E722C1DB81D002BB644 /* businessCard_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C340E712C1DB81D002BB644 /* businessCard_swiftuiUITests.swift */; };
 		2C340E742C1DB81D002BB644 /* businessCard_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C340E732C1DB81D002BB644 /* businessCard_swiftuiUITestsLaunchTests.swift */; };
+		2C340E842C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C340E832C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf */; };
+		2C340E852C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C340E832C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf */; };
+		2C340E862C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C340E832C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf */; };
+		2C340E882C1DC2A1002BB644 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C340E872C1DC2A1002BB644 /* InfoView.swift */; };
+		2C340E892C1DC2A1002BB644 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C340E872C1DC2A1002BB644 /* InfoView.swift */; };
+		2C340E8A2C1DC2A1002BB644 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C340E872C1DC2A1002BB644 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,10 @@
 		2C340E6D2C1DB81D002BB644 /* businessCard_swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = businessCard_swiftuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C340E712C1DB81D002BB644 /* businessCard_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = businessCard_swiftuiUITests.swift; sourceTree = "<group>"; };
 		2C340E732C1DB81D002BB644 /* businessCard_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = businessCard_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C340E812C1DB9D8002BB644 /* Playwrite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Playwrite.ttf; sourceTree = "<group>"; };
+		2C340E822C1DBA6A002BB644 /* businessCard-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "businessCard-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2C340E832C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteNL-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2C340E872C1DC2A1002BB644 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,11 @@
 		2C340E552C1DB81C002BB644 /* businessCard_swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				2C340E822C1DBA6A002BB644 /* businessCard-swiftui-Info.plist */,
+				2C340E802C1DB9BF002BB644 /* fonts */,
 				2C340E562C1DB81C002BB644 /* businessCard_swiftuiApp.swift */,
 				2C340E582C1DB81C002BB644 /* ContentView.swift */,
+				2C340E872C1DC2A1002BB644 /* InfoView.swift */,
 				2C340E5A2C1DB81D002BB644 /* Assets.xcassets */,
 				2C340E5C2C1DB81D002BB644 /* Preview Content */,
 			);
@@ -125,6 +138,15 @@
 				2C340E732C1DB81D002BB644 /* businessCard_swiftuiUITestsLaunchTests.swift */,
 			);
 			path = businessCard_swiftuiUITests;
+			sourceTree = "<group>";
+		};
+		2C340E802C1DB9BF002BB644 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C340E832C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf */,
+				2C340E812C1DB9D8002BB644 /* Playwrite.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +255,7 @@
 			files = (
 				2C340E5E2C1DB81D002BB644 /* Preview Assets.xcassets in Resources */,
 				2C340E5B2C1DB81D002BB644 /* Assets.xcassets in Resources */,
+				2C340E842C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C340E852C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C340E862C1DBCC2002BB644 /* PlaywriteNL-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +284,7 @@
 			files = (
 				2C340E592C1DB81C002BB644 /* ContentView.swift in Sources */,
 				2C340E572C1DB81C002BB644 /* businessCard_swiftuiApp.swift in Sources */,
+				2C340E882C1DC2A1002BB644 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C340E892C1DC2A1002BB644 /* InfoView.swift in Sources */,
 				2C340E682C1DB81D002BB644 /* businessCard_swiftuiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +303,7 @@
 			files = (
 				2C340E742C1DB81D002BB644 /* businessCard_swiftuiUITestsLaunchTests.swift in Sources */,
 				2C340E722C1DB81D002BB644 /* businessCard_swiftuiUITests.swift in Sources */,
+				2C340E8A2C1DC2A1002BB644 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,9 +449,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"businessCard_swiftui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "businessCard_swiftui/Assets.xcassets businessCard_swiftui/fonts";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "businessCard-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,9 +478,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"businessCard_swiftui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "businessCard_swiftui/Assets.xcassets businessCard_swiftui/fonts";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "businessCard-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
